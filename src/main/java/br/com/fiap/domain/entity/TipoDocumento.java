@@ -23,8 +23,8 @@ public class TipoDocumento {
     }
 
     public TipoDocumento(Long id, String nome) {
-        this.setId(id);
-        this.setNome(nome);
+        this.setId( id );
+        this.setNome( nome );
     }
 
 
@@ -48,9 +48,6 @@ public class TipoDocumento {
 
     @Override
     public String toString() {
-        return "TipoDocumento{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                '}';
+        return id + " - " + nome;
     }
 }
