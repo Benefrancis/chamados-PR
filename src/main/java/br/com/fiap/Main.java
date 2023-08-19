@@ -24,7 +24,6 @@ public class Main {
         //addDocumento( manager );
         // aberturaDeChamado( manager );
 
-
         manager.close();
         factory.close();
 
